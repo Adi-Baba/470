@@ -17,6 +17,7 @@
 \RequirePackage{longtable}
 \RequirePackage{calc}
 \RequirePackage{array}
+\RequirePackage{tikz}
 
 % Tight list for Pandoc
 \providecommand{\tightlist}{%
@@ -29,11 +30,18 @@
 % Page Geometry
 \geometry{margin=1.2in}
 
+% Circled page number command
+\newcommand{\circledpage}{%
+  \begin{tikzpicture}[baseline=(char.base)]
+    \node[draw, circle, inner sep=4pt, line width=0.5pt, text=black] (char) {\thepage};
+  \end{tikzpicture}%
+}
+
 % Header/Footer styling
 \fancypagestyle{plain}{
   \fancyhf{}
   \renewcommand{\headrulewidth}{0pt}
-  \fancyfoot[C]{\thepage}
+  \fancyfoot[C]{\circledpage}
 }
 \pagestyle{plain}
 \setcounter{secnumdepth}{0}
