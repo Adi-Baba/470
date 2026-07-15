@@ -2,7 +2,7 @@
 
 ## Abstract
 
-We investigate Erdős Problem #470 on the existence of odd weird numbers. By extending the $c$-exceptional framework, we establish a critical threshold $c^* = 13/7 \approx 1.857...$ above which no odd $c$-exceptional number can be abundant. For the remaining regime, we introduce the Minkowski Bridge (a scaled subset-sum projection) and the Weakly Practical Contiguity framework to analyze the subset sums of proper divisors. We prove unconditionally that all odd abundant numbers with $k \le 3$ distinct prime factors are pseudoperfect. For $k \ge 4$, we prove via Mertens' Third Theorem that the required subset sum density of the deficient core grows exponentially faster than its maximum prime factor, rendering subset-sum fragmentation impossible. This precludes all reliance on probabilistic heuristics or bounded computational searches, confining any potential odd weird number to a mathematically contradictory state.
+We investigate Erdős Problem #470 on the existence of odd weird numbers [1]. By extending the $c$-exceptional framework, we establish a critical threshold $c^* = 13/7 \approx 1.857...$ above which no odd $c$-exceptional number can be abundant. For the remaining regime, we introduce the Minkowski Bridge (a scaled subset-sum projection) and the Weakly Practical Contiguity framework to analyze the subset sums of proper divisors. We prove unconditionally that all odd abundant numbers with $k \le 3$ distinct prime factors are pseudoperfect. For $k \ge 4$, we prove via Mertens' Third Theorem [3] that the required subset sum density of the deficient core grows exponentially faster than its maximum prime factor, rendering subset-sum fragmentation impossible. This precludes all reliance on probabilistic heuristics or bounded computational searches, confining any potential odd weird number to a mathematically contradictory state.
 
 ---
 
@@ -168,7 +168,7 @@ To finalize the Minkowski Bridge, we must rigorously prove that the subset sums 
 *For the subset sums of $D(M)$ to form an unbroken block $[K, \sigma(M)-M]$, the core $M$ must satisfy the Weakly Practical condition $d_{i+1} \le \Sigma_i + 1$. Because $I(M) > 1.8$, the prime factorization of $M$ is algebraically forced to satisfy the conditions for weak practicality derived from Stewart's Structure Theorem for Practical Numbers.*
 
 **Proof.** 
-To guarantee that the subset sums of a set of divisors leave no gaps, we require the condition $d_{i+1} \le \Sigma_i + 1$ for all divisors after an initial fringe. By Stewart's Structure Theorem for Practical Numbers, an integer $n = p_1^{a_1} \dots p_k^{a_k}$ is strictly practical if $p_1 = 2$ and $p_{i+1} \le 1 + \sigma(p_1^{a_1} \dots p_i^{a_i})$ for all $i$. 
+To guarantee that the subset sums of a set of divisors leave no gaps, we require the condition $d_{i+1} \le \Sigma_i + 1$ for all divisors after an initial fringe. By Stewart's Structure Theorem for Practical Numbers [2], an integer $n = p_1^{a_1} \dots p_k^{a_k}$ is strictly practical if $p_1 = 2$ and $p_{i+1} \le 1 + \sigma(p_1^{a_1} \dots p_i^{a_i})$ for all $i$. 
 
 For an odd core $M$ with base prime 3, the absence of $p_1 = 2$ necessitates an initial fringe gap $K \le 30$ (established in Section 4). To formally prove the inductive step for the remaining divisors, let $m_i = p_1^{a_1} \dots p_i^{a_i}$. For the core to achieve the extreme abundancy $I(M) > 1.8$, the ratio between consecutive primes is strictly bounded by the density required to maintain near-abundance. Specifically, we must have $p_{i+1} \le \sigma(m_i)$; otherwise, the maximum possible abundancy index of the product strictly drops below the required $1.8$ threshold. 
 
@@ -191,10 +191,16 @@ Substituting this newly forced lower bound $p_k \ge 13$ back into the inequality
 
 To establish an absolute structural law, we generalize this divergence through formal algebraic limits. Let $S(x)$ denote the absolute minimum possible value of $\sigma(M')$ such that $I(M') > f(x)$. Since $f(x) \to 2$ as $x \to \infty$, achieving $I(M') > f(p_k)$ for large $p_k$ requires the abundancy index of the odd integer $M'$ to asymptotically approach 2.
 
-Achieving an abundancy index near 2 for an odd integer requires a product of the first $m$ consecutive odd primes. By Mertens' Third Theorem, the maximum abundancy grows logarithmically with the largest prime factor, $I \sim e^\gamma \ln(p_m)$. Therefore, the required core value $M'$, and consequently $S(p_k) = \sigma(M')$, must grow on the order of the primorial $p_m\# \sim e^{p_m}$. 
+Achieving an abundancy index near 2 for an odd integer requires a product of the first $m$ consecutive odd primes. By Mertens' Third Theorem [3], the maximum abundancy grows logarithmically with the largest prime factor, $I \sim e^\gamma \ln(p_m)$. Therefore, the required core value $M'$, and consequently $S(p_k) = \sigma(M')$, must grow on the order of the primorial $p_m\# \sim e^{p_m}$. 
 
 This establishes that the required subset sum capacity $S(p_k)$ grows exponentially, $O(e^{p_k})$, while the prime factor $p_k$ grows only linearly, $O(p_k)$. Thus, for any sufficiently large prime, the strict inequality $p_k > S(p_k)$ is strictly false, establishing a strict asymptotic divergence. (Because Mertens' Theorem is an asymptotic limit applying as $p \to \infty$, we note that all finite cases below the asymptotic threshold have already been computationally exhausted by prior literature.) Therefore, $p_k \le \sigma(M')$ is a fundamental structural constraint, and fractal fragmentation is mathematically impossible. ∎
 
 ## 7. Conclusion
 
 Odd weird numbers are algebraically impossible under the $c$-exceptional threshold. By abandoning heuristic models and computationally bounded searches in favor of analytic and algebraic contradiction and subset-sum induction, we provide a strictly rigorous framework. The recursive divergence established in Theorem 6.2 mathematically precludes any isolated subset-sum islands, confirming that if an odd number is abundant, its divisors are forced into contiguous overlap. The Minkowski Bridge unconditionally resolves the target excess within this gapless bulk, proving that all odd abundant numbers in this regime must be pseudoperfect.
+
+## References
+
+1. Benkoski, S. J., & Erdős, P. (1974). *On weird and pseudoperfect numbers*. Mathematics of Computation, 28(126), 617-623.
+2. Stewart, B. M. (1954). *Sums of distinct divisors*. American Journal of Mathematics, 76(4), 779-785.
+3. Mertens, F. (1874). *Ein Beitrag zur analytischen Zahlentheorie*. Journal für die reine und angewandte Mathematik (Crelle's Journal), 78, 46-62.
