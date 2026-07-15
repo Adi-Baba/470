@@ -1,1 +1,10 @@
 research/
+
+# LaTeX Build Files
+*.aux
+*.log
+*.out
+*.toc
+
+# Python Scripts
+*.py
