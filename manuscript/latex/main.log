@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.17)  15 JUL 2026 21:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.17)  15 JUL 2026 21:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -863,79 +863,72 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 [3]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 86.
+(hyperref)                removing `math shift' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 86.
+(hyperref)                removing `math shift' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 86.
+(hyperref)                removing `math shift' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `superscript' on input line 86.
+(hyperref)                removing `superscript' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\ast' on input line 86.
+(hyperref)                removing `\ast' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 86.
+(hyperref)                removing `math shift' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 98.
+(hyperref)                removing `math shift' on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\le' on input line 98.
+(hyperref)                removing `\le' on input line 97.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 98.
+(hyperref)                removing `math shift' on input line 97.
 
 [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 155--158
+Underfull \hbox (badness 10000) in paragraph at lines 154--157
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 179--180
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 186--188
+
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
 
  []
 
-[9] (./main.aux)
+[8] [9] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: A4361148C105E74F09C62DDCED1F0D7A;4212
-(rerunfilecheck)             After:  6280FEB12CF7E610767B6DCF6A7FFAD6;4195.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 6280FEB12CF7E610767B6DCF6A7FFAD6;4195.
  ) 
 Here is how much of TeX's memory you used:
  22107 strings out of 474222
@@ -953,17 +946,17 @@ xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on main.pdf (9 pages, 201976 bytes).
+/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.p
+fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+>
+Output written on main.pdf (9 pages, 192888 bytes).
 PDF statistics:
- 208 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
+ 203 PDF objects out of 1000 (max. 8388607)
+ 161 compressed objects within 2 object streams
  32 named destinations out of 1000 (max. 500000)
  141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
