@@ -126,6 +126,8 @@ In the dense regime ($k \ge 21$), the excess $E(N)$ is astronomically large, str
 ---
 
 ## 6. The Abundant Expansion Lemma
+
+### 6.1 Theorem (The Abundant Expansion Lemma)
 *If $A$ is a pseudoperfect abundant number, then $N = A \cdot p$ is pseudoperfect for any prime $p$, regardless of whether $p > \sigma(A)$. Non-contiguous subset-sum gaps created by large tail primes are mathematically irrelevant.*
 
 **Proof.** 
